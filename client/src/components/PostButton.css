@@ -1,0 +1,17 @@
+.pst-btn {
+    background-color: #73C162;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #091334;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}

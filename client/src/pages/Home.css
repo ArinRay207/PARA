@@ -1,0 +1,13 @@
+.dashboard-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dashboard-title {
+    color: #73C162;
+    font-size: 7rem;
+    font-weight: 600;
+    margin: 3vh 0;
+    text-align: center;
+}

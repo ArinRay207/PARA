@@ -1,0 +1,70 @@
+.note {
+    background: #F39F5A;
+    border-radius: 7px;
+    padding: 1.5vh 1.5vw;
+    width: 22vw;
+    margin-bottom: 5vh;
+    float: left;
+}
+
+.note-header h2 {
+    font-weight: 600;
+}
+
+.note p {
+    margin: 0.5vh 0;
+    font-weight: 600;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note-modal {
+    background: #091334;
+    border-radius: 7px;
+    padding: 1% 2%;
+    height: max-content;
+    margin: 20vh;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* margin-top: 1vh; */
+}
+
+/* 
+SECONDS
+
+[-7/200, -88/200]
+[-5.13/200, -11.04/200]
+[-12.12/200, -7/200]
+[-12.12/200, 7/200]
+[-4.58/200, 11.35/200]
+[0, 1]
+[-4.58/200, 11.35/200]
+[-12.12/200, 7/200]
+[-12.12/200, -7/200]
+[-5.13/200, -11.04/200]
+[-7/200, -88/200]
+
+MINUTES
+
+[11.5/193.81, -64/193.81]
+[3/193.81, 0]
+[11.5/193.81, 126.72/193.81]
+[0, 1]
+[-11.5/193.81, 126.72/193.81]
+[-3/193.81, 0]
+[-11.5/193.81, -64/193.81]
+
+HOURS
+
+[11.5, -64]
+[3, 0]
+[11.5, 126.72]
+[0, 193.81]
+[-11.5, 126.72]
+[-3, 0]
+[-11.5, -64] 
+*/

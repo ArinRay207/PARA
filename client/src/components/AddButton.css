@@ -1,0 +1,16 @@
+.add-btn {
+    position: fixed;
+    display: inline-flex;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 5vh;
+    right: 5vh;
+    cursor: pointer;
+}
+
+.add-sign {
+    font-size: 5rem;
+}

@@ -1,0 +1,24 @@
+.middle-container {
+    background-color: #F3755C;
+    border-radius: 15px;
+    width: 90%;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.sum-text-area {
+    background-color: #F3755C;
+    justify-content: stretch;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}

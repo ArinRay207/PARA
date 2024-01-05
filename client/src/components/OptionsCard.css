@@ -1,0 +1,25 @@
+.options-card {
+    align-items: flex-end;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 1.5rem;
+    height: 50vh;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 17vw;
+    cursor: pointer;
+}
+
+.options-card:hover {
+    scale: 1.05;
+}
+
+.options-card-title {
+    display: flex;
+    border-top: solid;
+    border-color: #091334;
+    width: 15vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}

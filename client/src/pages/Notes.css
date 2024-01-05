@@ -1,0 +1,13 @@
+.notes-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.ghost-note {
+    padding: 1.5vh 1.5vw;
+    width: 22vw;
+    margin-bottom: 5vh;
+    float: left;
+}

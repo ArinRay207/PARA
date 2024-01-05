@@ -1,0 +1,10 @@
+.result-container {
+    border: solid;
+    font-weight: 500;
+    border-color: #F3755C;
+    border-radius: 15px;
+    width: 90%;
+    padding: 1rem;
+    color:#F3755C;
+    margin-bottom: 5vh;
+}

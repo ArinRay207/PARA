@@ -1,0 +1,37 @@
+.modal-heading-input {
+    border: none;
+    display: inline-block;
+    font-size: xx-large;
+    color: #F39F5A;
+    background-color: #091334;
+    font-weight: 600;
+}
+
+.modal-middle-container {
+    width: 100%;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.modal-desc-input {
+    justify-content: stretch;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #091334;
+    border: none;
+    font-weight: 100;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+.modal-upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,174 @@
+body {
+    background-color: #091334;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #193A65;
+    color: #73C162;
+    font-size: 1.25rem;
+    padding: 0;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  
+  h1 {
+    font-size: 20rem;
+    font-weight: 600;
+    color: #73C162;
+    animation: slideDown ease 1s forwards 0s;
+    margin: 2rem 0 0 0;
+  }
+  
+  .navbar-brand, .navbar-brand:hover {
+    color: #73C162;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .navbar-items-list {
+    margin-left: auto;
+  }
+  
+  .nav-link{
+    color: #168DC6;
+    font-weight: 500;
+  } 
+  
+  .nav-link:hover {
+    color: #091334;
+    font-weight: 500;
+  }
+  
+  
+  
+  .nav-item {
+    width: 5rem;
+  }
+  
+  .nav-item:hover {
+    background-color: #168DC6;
+  }
+  
+  .hp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    margin: 4rem 0 0 0;
+    color: #73C162;
+    animation: text ease 1.3s forwards 0s;
+  }
+  
+  h4 {
+    display: inline-block;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-size: 2.5rem;
+    color: #73C162;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: solid #a3a5a8; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: 0.15em; Adjust as needed */
+    animation: text ease 1.3s forwards 0s;
+  }
+  
+  hr {
+    border: 5px solid #73C162;
+    width: 40rem;
+    margin: 0 0 4rem 0;
+    animation: rule ease 1.3s forwards 0s;
+  }
+  
+  .slide-effect {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-400px);
+      opacity: 0;
+      color: #3a3b3b;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      color: #73C162;
+    }
+  }
+  
+  @keyframes rule {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+      color: #3a3b3b;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+      color: #73C162;
+    }
+  }
+  
+  @keyframes text {
+    0% {
+      /* transform: scale(0); */
+      opacity: 0;
+    }
+    100% {
+      /* transform: scale(1); */
+      opacity: 1;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100rem;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #73C162;
+    }
+  }
+  
+.sub-btn {
+    background-color: #73C162;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #091334;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: none;
+    animation: text ease 2s forwards 0s;
+  }
